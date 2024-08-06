@@ -1,0 +1,41 @@
+/* Mobil qurilmalar uchun moslashtirish */
+
+/* Kichik ekranlar uchun header */
+@media (max-width: 768px) {
+    .header-section h1 {
+        font-size: 24px;
+    }
+
+    .header-section nav a {
+        display: block;
+        padding: 10px;
+    }
+
+    .background-image {
+        height: 300px;
+    }
+}
+
+/* Ekranlar 480px dan kichik bo'lsa */
+@media (max-width: 480px) {
+    .background-image h2 {
+        font-size: 20px;
+    }
+
+    form input[type="submit"] {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+/* Ekranlar 320px dan kichik bo'lsa */
+@media (max-width: 320px) {
+
+    .header-section h1 {
+        font-size: 18px;
+    }
+
+    .header-section nav a {
+        padding: 8px;
+    }
+    
